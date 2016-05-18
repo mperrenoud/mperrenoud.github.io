@@ -9,10 +9,21 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        {% if post.category != "cheat-sheets" %}
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        {% endif %}
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <figcaption>{{ post.description }}</figcaption>
+
+          {% if post.title == "Angular Resource Cheat Sheet" %}
+            <script async id="_ck_54568" src="https://forms.convertkit.com/54568?v=5"></script>
+          {% endif %}
+
+          {% if post.title == "UI Router Cheat Sheet" %}
+            <script async id="_ck_54571" src="https://forms.convertkit.com/54571?v=5"></script>
+          {% endif %}
         </h2>
       </li>
     {% endfor %}

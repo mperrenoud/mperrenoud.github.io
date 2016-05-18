@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "UI Router Cheat Sheet"
+description: "This is a must have for all Angular developers using UI Router."
 date: "2016-05-17 14:46:15 -0600"
 category: cheat-sheets
 tags: angularjs, ui-router, cheat sheet

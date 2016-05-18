@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Angular Resource Cheat Sheet"
+description: "This is a must have for all Angular developers wanting to use RESTful APIs for data."
 date:   "2016-05-17 13:33:48 -0600"
 category: cheat-sheets
 tags: angularjs, resource, cheat sheet
