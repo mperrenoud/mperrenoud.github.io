@@ -229,3 +229,11 @@ pre {
   width: 100%;
   height: 100%;
 }
+
+.ck_form.ck_naked.ck_horizontal {
+  margin: 0;
+
+  .ck_form_fields {
+    padding: 0;
+  }
+}
