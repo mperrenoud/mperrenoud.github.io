@@ -5,6 +5,7 @@ description: "This is a must have for all Angular developers using UI Router."
 date: "2016-05-17 14:46:15 -0600"
 category: cheat-sheets
 tags: angularjs, ui-router, cheat sheet
+redirect_from: /blogs/geeks-only/103066054-ui-router-cheat-sheet
 ---
 > Quite possibly the most used library and routing engine in Angular today, this cheat sheet is a must have for all Angular developers.
 

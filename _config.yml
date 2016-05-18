@@ -16,6 +16,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://trainwithmike.us" # the base hostname & protocol for your site
 twitter_username: consultwmike
 github_username:  mperrenoud
+gems:
+  - jekyll-redirect-from
+whitelist:
+  - jekyll-redirect-from
 
 # Build settings
 markdown: kramdown
