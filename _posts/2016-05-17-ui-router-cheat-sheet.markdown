@@ -7,6 +7,8 @@ tags: angularjs, ui-router, cheat sheet
 ---
 > Quite possibly the most used library and routing engine in Angular today, this cheat sheet is a must have for all Angular developers.
 
+<script async id="_ck_54560" src="https://forms.convertkit.com/54560?v=5"></script>
+
 # Configuring
 
 The UI Router is configured in the module `config` function. This can be done two different ways.
