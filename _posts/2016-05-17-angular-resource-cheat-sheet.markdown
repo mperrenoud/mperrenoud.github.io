@@ -7,6 +7,8 @@ tags: angularjs, resource, cheat sheet
 ---
 > Gathering data for an application today is potentially the single most important task you'll ever perform. In Angular the built-in mechanism in the `$resource` service.
 
+<script async id="_ck_54549" src="https://forms.convertkit.com/54549?v=5"></script>
+
 ## Strip Trailing Slashes
 
 {% highlight javascript linenos %}
