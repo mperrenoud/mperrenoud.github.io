@@ -5,6 +5,7 @@ description: "This is a must have for all Angular developers wanting to use REST
 date:   "2016-05-17 13:33:48 -0600"
 category: cheat-sheets
 tags: angularjs, resource, cheat sheet
+redirect_from: /blogs/geeks-only/102394182-angular-1-x-resource-cheat-sheet
 ---
 > Gathering data for an application today is potentially the single most important task you'll ever perform. In Angular the built-in mechanism in the `$resource` service.
 
