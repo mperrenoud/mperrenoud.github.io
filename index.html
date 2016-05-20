@@ -7,6 +7,23 @@ layout: default
   <h1>About Me</h1>
   <p>Hi, I’m Mike. I'm a 15 year veteran developer with experience ranging from startups to multi-billion dollar enterprises. I'm a polyglot, mentor, and genuinely enjoy helping people and making a difference in their lives — and I really love building cool things with software.</p>
 
+  <h2>Connect with Me</h2>
+  <a href="https://www.youtube.com/channel/UC5CHsghUNxe5cU3SSwtJQdw" target="_blank">
+    <img class="connect-image" src="https://www.youtube.com/yt/brand/media/image/YouTube-icon-full_color.png" />
+  </a>
+  <a href="http://stackoverflow.com/users/1195080/mike-perrenoud" target="_blank">
+    <img class="connect-image" src="http://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/so/so-logo.png?v=9c558ec15d8a" />
+  </a>
+  <a href="https://github.com/mperrenoud" target="_blank">
+    <img class="connect-image" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" />
+  </a>
+  <a href="https://twitter.com/consultwmike" target="_blank">
+    <img class="connect-image" src="https://g.twimg.com/Twitter_logo_blue.png" />
+  </a>
+  <a href="https://www.facebook.com/mperrenoud03" target="_blank">
+    <img class="connect-image" src="https://www.facebookbrand.com/img/fb-art.jpg" />
+  </a>
+
   <h1>My Books and Videos</h1>
   <a href="https://www.packtpub.com/web-development/learning-web-development-mean-stack-video" target="_blank">
     <img class="contrib-image" src="https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/bookretailers/9781784399320.jpg" />
@@ -32,33 +49,16 @@ layout: default
           <figcaption>{{ post.description }}</figcaption>
 
           {% if post.title == "Angular Resource Cheat Sheet" %}
-          <a href="pdf/2016-05-17-angular-resource-cheat-sheet.pdf" target="_blank">Download PDF</a>
+          <a href="pdf/2016-05-17-angular-resource-cheat-sheet.pdf" class="button" target="_blank">Download PDF</a>
           {% endif %}
 
           {% if post.title == "UI Router Cheat Sheet" %}
-          <a href="pdf/2016-05-17-ui-router-cheat-sheet.pdf" target="_blank">Download PDF</a>
+          <a href="pdf/2016-05-17-ui-router-cheat-sheet.pdf" class="button" target="_blank">Download PDF</a>
           {% endif %}
         </h2>
       </li>
     {% endfor %}
   </ul>
-
-  <h1>Connect with Me</h1>
-  <a href="https://www.youtube.com/channel/UC5CHsghUNxe5cU3SSwtJQdw" target="_blank">
-    <img class="contrib-image" src="https://www.youtube.com/yt/brand/media/image/YouTube-icon-full_color.png" />
-  </a>
-  <a href="http://stackoverflow.com/users/1195080/mike-perrenoud" target="_blank">
-    <img class="contrib-image" src="http://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/so/so-logo.png?v=9c558ec15d8a" />
-  </a>
-  <a href="https://github.com/mperrenoud" target="_blank">
-    <img class="contrib-image" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" />
-  </a>
-  <a href="https://twitter.com/consultwmike" target="_blank">
-    <img class="contrib-image" src="https://g.twimg.com/Twitter_logo_blue.png" />
-  </a>
-  <a href="https://www.facebook.com/mperrenoud03" target="_blank">
-    <img class="contrib-image" src="https://www.facebookbrand.com/img/fb-art.jpg" />
-  </a>
 
   <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
   <hr/>
